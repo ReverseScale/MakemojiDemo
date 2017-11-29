@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_image" translatesAutoresizingMaskIntoConstraints="NO" id="naV-ZH-1JS">
+                                <rect key="frame" x="25" y="54" width="270" height="197"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makemoji SDK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDB-Ve-9Lg">
+                                <rect key="frame" x="82" y="35" width="155.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ojZ-SV-cIL">
+                                <rect key="frame" x="0.0" y="248" width="320" height="320"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="p2V-5S-Iqd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="naV-ZH-1JS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="05D-fm-bgd"/>
+                            <constraint firstItem="naV-ZH-1JS" firstAttribute="top" secondItem="bDB-Ve-9Lg" secondAttribute="bottom" constant="-10" id="BkZ-VQ-bqt"/>
+                            <constraint firstItem="bDB-Ve-9Lg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="35" id="KvE-Vw-Tkf"/>
+                            <constraint firstItem="ojZ-SV-cIL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fiG-3Y-bVK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ojZ-SV-cIL" secondAttribute="bottom" id="mEu-1E-Fa4"/>
+                            <constraint firstItem="ojZ-SV-cIL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oYT-P2-3Ib"/>
+                            <constraint firstItem="bDB-Ve-9Lg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pPP-cm-T6N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="naV-ZH-1JS" secondAttribute="trailing" constant="25" id="yuG-9y-KUC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textChatView" destination="ojZ-SV-cIL" id="8Lq-9d-6Hx"/>
+                        <outlet property="textViewToBottomConstraint" destination="mEu-1E-Fa4" id="tDK-FY-nwE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="64.31784107946028"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="info_image" width="563" height="197"/>
+    </resources>
+</document>

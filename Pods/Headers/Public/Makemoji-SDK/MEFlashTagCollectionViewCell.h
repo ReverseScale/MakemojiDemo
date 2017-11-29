@@ -1,0 +1,1 @@
+../../../Makemoji-SDK/Pod/Classes/MEFlashTagCollectionViewCell.h
