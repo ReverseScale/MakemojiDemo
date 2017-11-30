@@ -293,7 +293,7 @@ self.meTextInputView.placeholderLabel.textColor = [UIColor darkGrayColor];
 
 You will need to listen for the NSNotification `MECategorySelectedLockedCategory` to determine when a locked category was tapped on. To unlock a category, you will need to call `[MakemojiSDK unlockCategory:@"category"]` You can listen to `MECategoryUnlockedSuccessNotification` and `MECategoryUnlockedFailedNotification` to determine if the unlock call was successful.
 
-#### App Submission
+### :memo: App Submission
 
 The Makemoji SDK uses the IDFA tracking id to attribute views, shares, clicks in your app. You will need to check the "Attribute this app installation to a previously served advertisment" option when submitting your app to the App Store.
 
@@ -631,7 +631,7 @@ self.meTextInputView.placeholderLabel.textColor = [UIColor darkGrayColor];
 
 您将需要侦听NSNotification `MECategorySelectedLockedCategory` 来确定什么时候锁定了一个类别。 要解锁一个类别，您需要调用 `[MakemojiSDK unlockCategory：@“category”]` 您可以收听 'MECategoryUnlockedSuccessNotification` 和 `MECategoryUnlockedFailedNotification` 以确定解锁呼叫是否成功。
 
-#### 应用程序提交
+### :memo: 应用程序提交
 
 Makemoji SDK 使用IDFA跟踪ID来为您的应用程序中的视图，共享和点击进行归因。 将应用程序提交到 App Store 时，您需要检查“将此应用程序安装到以前投放的广告”选项。
 
