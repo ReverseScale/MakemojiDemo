@@ -300,12 +300,6 @@ The Makemoji SDK uses the IDFA tracking id to attribute views, shares, clicks in
 ![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/54698832.jpg)
 
 
-### :grimacing: Contributions
-
-* WeChat : WhatsXie
-* Email : ReverseScale@iCloud.com
-* Blog : https://reversescale.github.io
-
 ### ⚖️ License
 
 ```
@@ -331,6 +325,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+### :grimacing: Contributions
+
+* WeChat : WhatsXie
+* Email : ReverseScale@iCloud.com
+* Blog : https://reversescale.github.io
+
 
 -------
 
@@ -637,11 +638,6 @@ Makemoji SDK 使用IDFA跟踪ID来为您的应用程序中的视图，共享和�
 
 ![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/54698832.jpg)
 
-### :grimacing: 联系
-
-* 微信 : WhatsXie
-* 邮件 : ReverseScale@iCloud.com
-* 博客 : https://reversescale.github.io
 
 ### ⚖️ 协议
 
@@ -668,3 +664,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+### :grimacing: 联系
+
+* 微信 : WhatsXie
+* 邮件 : ReverseScale@iCloud.com
+* 博客 : https://reversescale.github.io
+
+
