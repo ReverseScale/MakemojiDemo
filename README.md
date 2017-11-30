@@ -300,7 +300,8 @@ The Makemoji SDK uses the IDFA tracking id to attribute views, shares, clicks in
 ![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/54698832.jpg)
 
 
-------
+-------
+#中文介绍
 ------
 
 > Emoji 表情无处不在。 它们每天被数百万人使用，是一个无与伦比的表达工具。
