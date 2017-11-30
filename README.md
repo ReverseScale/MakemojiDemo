@@ -33,7 +33,7 @@ The output of our text input is a simple HTML message, along with a plaintext ve
 | Describe | Before the input style | Writing style of keyboard | Keyboard style expression package | The expression style of keyboard |
 
 
-### :zap: How does it work?
+### :dart: Installation
 
 #### Install
 
@@ -300,6 +300,12 @@ The Makemoji SDK uses the IDFA tracking id to attribute views, shares, clicks in
 ![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/54698832.jpg)
 
 
+### :grimacing: Contributions
+
+* WeChat : WhatsXie
+* Email : ReverseScale@iCloud.com
+* Blog : https://reversescale.github.io
+
 -------
 
 #中文介绍
@@ -339,7 +345,7 @@ Makemoji 应用内键盘是我们 SDK 的核心。 这是一个动态控制的�
 | 描述 | 输入前样式 | 文字键盘样式 | 表情包键盘样式 | 表情键盘样式 |
 
 
-### :zap: 怎么使用？
+### :dart: 安装方法
 
 #### 安装
 
@@ -604,3 +610,9 @@ self.meTextInputView.placeholderLabel.textColor = [UIColor darkGrayColor];
 Makemoji SDK 使用IDFA跟踪ID来为您的应用程序中的视图，共享和点击进行归因。 将应用程序提交到 App Store 时，您需要检查“将此应用程序安装到以前投放的广告”选项。
 
 ![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/54698832.jpg)
+
+### :grimacing: 联系
+
+* 微信 : WhatsXie
+* 邮件 : ReverseScale@iCloud.com
+* 博客 : https://reversescale.github.io
