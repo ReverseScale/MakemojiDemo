@@ -9,7 +9,7 @@
 We believe that users should not be limited to the Unicode library and we built this keyboard to increase engagement, retention and revenue for all of the apps we work with. 
 
 
-### :robot: Requirements
+### <font size=34>:robot:</font>:robot: Requirements
 
 * iOS 9.0+
 * Xcode 9.0+
