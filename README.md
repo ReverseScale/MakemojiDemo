@@ -11,7 +11,7 @@ We believe that users should not be limited to the Unicode library and we built 
 
 ### :robot: Requirements
 
-* iOS 9.0+
+* iOS 9.0+ & Android
 * Xcode 9.0+
 * Swift / Objective-C
 
@@ -350,7 +350,7 @@ SOFTWARE.
 
 ### :robot: 要求
 
-* iOS 9.0+
+* iOS 9.0+ & Android
 * Xcode 9.0+
 * Swift / Objective-C
 
