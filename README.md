@@ -27,7 +27,7 @@ The output of our text input is a simple HTML message, along with a plaintext ve
 
 ### :art: Why test the UI?
 
-| Name |1.Show Page |2.Show Page |3.Show Page |3.Show Page |
+| Name |1.Show Page |2.Show Page |3.Show Page |4.Show Page |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Screenshot | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/34552577.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/26563646.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/21718798.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/18066034.jpg) |
 | Describe | Before the input style | Writing style of keyboard | Keyboard style expression package | The expression style of keyboard |
@@ -366,7 +366,7 @@ Makemoji 应用内键盘是我们 SDK 的核心。 这是一个动态控制的�
 
 ### :art: 测试 UI 什么样子？
 
-| 名称 |1.展示页 |2.展示页 |3.展示页 |3.展示页 |
+| 名称 |1.展示页 |2.展示页 |3.展示页 |4.展示页 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/34552577.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/26563646.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/21718798.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/18066034.jpg) |
 | 描述 | 输入前样式 | 文字键盘样式 | 表情包键盘样式 | 表情键盘样式 |
