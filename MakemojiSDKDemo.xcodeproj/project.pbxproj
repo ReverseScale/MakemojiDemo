@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345132F420898D15001D186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345132F220898D15001D186E /* LaunchScreen.storyboard */; };
+		345132F520898D15001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 345132F320898D15001D186E /* Default.png */; };
 		34C719A11FCE98F00005C107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C719A01FCE98F00005C107 /* AppDelegate.m */; };
 		34C719A41FCE98F00005C107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C719A31FCE98F00005C107 /* ViewController.m */; };
 		34C719A71FCE98F00005C107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C719A51FCE98F00005C107 /* Main.storyboard */; };
 		34C719A91FCE98F00005C107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C719A81FCE98F00005C107 /* Assets.xcassets */; };
-		34C719AC1FCE98F00005C107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C719AA1FCE98F00005C107 /* LaunchScreen.storyboard */; };
 		34C719AF1FCE98F00005C107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C719AE1FCE98F00005C107 /* main.m */; };
 		34C719B91FCE98F10005C107 /* MakemojiSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C719B81FCE98F10005C107 /* MakemojiSDKDemoTests.m */; };
 		34C719C41FCE98F10005C107 /* MakemojiSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C719C31FCE98F10005C107 /* MakemojiSDKDemoUITests.m */; };
@@ -39,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		1D430054CF3FF6BAF746BA10 /* Pods-MakemojiSDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakemojiSDKDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakemojiSDKDemoTests/Pods-MakemojiSDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		345132F220898D15001D186E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345132F320898D15001D186E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		34C7199C1FCE98F00005C107 /* MakemojiSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakemojiSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C7199F1FCE98F00005C107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34C719A01FCE98F00005C107 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,7 +49,6 @@
 		34C719A31FCE98F00005C107 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34C719A61FCE98F00005C107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34C719A81FCE98F00005C107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34C719AB1FCE98F00005C107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34C719AD1FCE98F00005C107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C719AE1FCE98F00005C107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34C719B41FCE98F10005C107 /* MakemojiSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakemojiSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +136,8 @@
 				34C719A31FCE98F00005C107 /* ViewController.m */,
 				34C719A51FCE98F00005C107 /* Main.storyboard */,
 				34C719A81FCE98F00005C107 /* Assets.xcassets */,
-				34C719AA1FCE98F00005C107 /* LaunchScreen.storyboard */,
+				345132F220898D15001D186E /* LaunchScreen.storyboard */,
+				345132F320898D15001D186E /* Default.png */,
 				34C719AD1FCE98F00005C107 /* Info.plist */,
 				34C719AE1FCE98F00005C107 /* main.m */,
 			);
@@ -287,9 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C719AC1FCE98F00005C107 /* LaunchScreen.storyboard in Resources */,
+				345132F420898D15001D186E /* LaunchScreen.storyboard in Resources */,
 				34C719A91FCE98F00005C107 /* Assets.xcassets in Resources */,
 				34C719A71FCE98F00005C107 /* Main.storyboard in Resources */,
+				345132F520898D15001D186E /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,14 +515,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		34C719AA1FCE98F00005C107 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34C719AB1FCE98F00005C107 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -631,7 +627,6 @@
 			baseConfigurationReference = 5DFF95EF4500E781C902A0F9 /* Pods-MakemojiSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHQ5WDNWKL;
 				INFOPLIST_FILE = MakemojiSDKDemo/Info.plist;
@@ -647,7 +642,6 @@
 			baseConfigurationReference = 63E48E6DB812989B38B82646 /* Pods-MakemojiSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHQ5WDNWKL;
 				INFOPLIST_FILE = MakemojiSDKDemo/Info.plist;
