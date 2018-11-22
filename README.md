@@ -2,41 +2,36 @@
 
 > Emojis are everywhere. They're used by millions of people every day and are an unparalleled expressive tool. 
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/88204422.jpg)
-
-![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-blue.svg) ![](https://img.shields.io/badge/download-9.9MB-yellow.svg) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
-
-[EN](https://github.com/ReverseScale/MakemojiDemo) | [中文](https://github.com/ReverseScale/MakemojiDemo/blob/master/README_zh.md)
-
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb0d738da?w=1689&h=591&f=png&s=109467)
 
 We believe that users should not be limited to the Unicode library and we built this keyboard to increase engagement, retention and revenue for all of the apps we work with. 
 
 
-### :robot: Requirements
+### 🤖 Requirements
 
 * iOS 9.0+ & Android
 * Xcode 9.0+
 * Swift / Objective-C
 
 
-### :rocket: Getting started
+### 🚀 Getting started
 
 The Makemoji in-app keyboard is the core of our SDK. It is a dynamically controlled emoji keyboard with an tightly integrated text input that is backed by our CMS and Dashboard. You can create your own categories, upload emoji/gifs and track their usage along side unicode emoji.
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/64201647.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb57cd724?w=569&h=370&f=png&s=28870)
 
 The output of our text input is a simple HTML message, along with a plaintext version and what we called 'substitued' version, which uses a simple template system. This output can then be saved on your device, in your backend or wherever you choose.
 
 
-### :art: Why test the UI?
+### 🎨 Why test the UI?
 
-| Name |1.Show Page |2.Show Page |3.Show Page |4.Show Page |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Screenshot | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/34552577.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/26563646.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/21718798.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/18066034.jpg) |
-| Describe | Before the input style | Writing style of keyboard | Keyboard style expression package | The expression style of keyboard |
+|1.Show Page |2.Show Page |3.Show Page |4.Show Page |
+| ------------- | ------------- | ------------- | ------------- |
+| ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb6969319?w=640&h=1136&f=jpeg&s=47286) | ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb6880069?w=640&h=1136&f=jpeg&s=68891) | ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb6a50e40?w=640&h=1136&f=jpeg&s=51624) | ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb51c8391?w=640&h=1136&f=jpeg&s=59621) |
+| Before the input style | Writing style of keyboard | Keyboard style expression package | The expression style of keyboard |
 
 
-### :dart: Installation
+### 🎯 Installation
 
 #### Install
 
@@ -89,7 +84,7 @@ and `App.java`
     }
 ```
 
-### :hammer_and_wrench: Configuration
+### 🛠 Configuration
 
 #### Setup
 
@@ -121,7 +116,7 @@ If your app calls for a floating 'iMessage' type text input, you can simply just
 
 This default mode follows the keyboard, comes with a camera/send button and expands to fill the full screen if a user types a long message. `METextInputView` follows `firstResponder` pattern to hide / show the keyboard.
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/148522.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87beca73f8e?w=825&h=631&f=png&s=53101)
 
 There are many ways available to customize the look and feel of this input and navigation bar. We'll cover that in `Customizations`
 
@@ -136,7 +131,7 @@ If you need the Text Input detached from the keyboard, you will need to call the
 
 Since the Send Button and Camera button are hidden in this mode, you will need to attach a button to the `sendMessage` method on `METextInputView` to trigger capturing the text.
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/48111428.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87becff928a?w=259&h=318&f=png&s=8194)
 
 #### Input Size Changes
 
@@ -296,40 +291,14 @@ self.meTextInputView.placeholderLabel.textColor = [UIColor darkGrayColor];
 
 You will need to listen for the NSNotification `MECategorySelectedLockedCategory` to determine when a locked category was tapped on. To unlock a category, you will need to call `[MakemojiSDK unlockCategory:@"category"]` You can listen to `MECategoryUnlockedSuccessNotification` and `MECategoryUnlockedFailedNotification` to determine if the unlock call was successful.
 
-### :memo: App Submission
+### 📝 App Submission
 
 The Makemoji SDK uses the IDFA tracking id to attribute views, shares, clicks in your app. You will need to check the "Attribute this app installation to a previously served advertisment" option when submitting your app to the App Store.
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/54698832.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bece6eb36?w=1264&h=607&f=png&s=75271)
 
 
-### ⚖️ License
-
-```
-MIT License
-
-Copyright (c) 2017 ReverseScale
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### :grimacing: Contributions
+### 😬 Contributions
 
 * WeChat : WhatsXie
 * Email : ReverseScale@iCloud.com
