@@ -1,6 +1,6 @@
 > Emoji 表情无处不在。 它们每天被数百万人使用，是一个无与伦比的表达工具。
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/88204422.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb0d738da?w=1689&h=591&f=png&s=109467)
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-blue.svg) ![](https://img.shields.io/badge/download-9.9MB-yellow.svg) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
@@ -9,31 +9,31 @@
 我们相信，用户不应该被限制在 Unicode 库中，我们构建了这个键盘，以增加所有与我们合作的应用程序的参与度，保留率和收入。
 
 
-### :robot: 要求
+### 🤖 要求
 
 * iOS 9.0+ & Android
 * Xcode 9.0+
 * Swift / Objective-C
 
 
-### :rocket: 准备开始
+### 🚀 准备开始
 
 Makemoji 应用内键盘是我们 SDK 的核心。 这是一个动态控制的表情符号键盘与紧密集成的文本输入，由我们的CMS和仪表板支持。 您可以创建自己的类别，上传 emoji / gifs 并沿着 unicode 表情符号跟踪其使用情况。
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/64201647.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb57cd724?w=569&h=370&f=png&s=28870)
 
 我们的文本输入的输出是一个简单的 HTML 消息，以及一个纯文本版本和我们所谓的“替代”版本，它使用一个简单的模板系统。 这个输出可以保存在您的设备上，后端或您选择的任何地方。
 
 
-### :art: 测试 UI 什么样子？
+### 🎨 测试 UI 什么样子？
 
-| 名称 |1.展示页 |2.展示页 |3.展示页 |4.展示页 |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/34552577.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/26563646.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/21718798.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-29/18066034.jpg) |
-| 描述 | 输入前样式 | 文字键盘样式 | 表情包键盘样式 | 表情键盘样式 |
+|1.展示页 |2.展示页 |3.展示页 |4.展示页 |
+| ------------- | ------------- | ------------- | ------------- |
+| ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb6969319?w=640&h=1136&f=jpeg&s=47286) | ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb6880069?w=640&h=1136&f=jpeg&s=68891) | ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb6a50e40?w=640&h=1136&f=jpeg&s=51624) | ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb51c8391?w=640&h=1136&f=jpeg&s=59621) |
+| 输入前样式 | 文字键盘样式 | 表情包键盘样式 | 表情键盘样式 |
 
 
-### :dart: 安装方法
+### 🎯 安装方法
 
 #### 安装
 
@@ -86,7 +86,7 @@ Android 在 `AndroidManifest.xml`:
     }
 ```
 
-### :hammer_and_wrench: 配置
+### 🛠 配置
 
 #### 设置
 
@@ -119,7 +119,7 @@ self.meTextInputView.delegate = self;
 
 这个默认模式在键盘之后，随着一个摄像头/发送按钮，并且当用户输入一个长消息时，扩展到全屏。 `METextInputView` 遵循 'firstResponder` 模式来隐藏/显示键盘。
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/148522.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87beca73f8e?w=825&h=631&f=png&s=53101)
 
 有很多方法可以定制这个输入和导航栏的外观和感觉。 我们将在 `Customizations` 中介绍
 
@@ -134,7 +134,7 @@ self.meTextInputView.delegate = self;
 
 由于“发送按钮”和“摄像头”按钮在此模式下处于隐藏状态，因此您需要在 `METextInputView` 的 `sendMessage` 方法上附加一个按钮来触发捕获文本。
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/48111428.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87becff928a?w=259&h=318&f=png&s=8194)
 
 #### 输入大小变化
 
@@ -293,43 +293,15 @@ self.meTextInputView.placeholderLabel.textColor = [UIColor darkGrayColor];
 
 您将需要侦听NSNotification `MECategorySelectedLockedCategory` 来确定什么时候锁定了一个类别。 要解锁一个类别，您需要调用 `[MakemojiSDK unlockCategory：@“category”]` 您可以收听 'MECategoryUnlockedSuccessNotification` 和 `MECategoryUnlockedFailedNotification` 以确定解锁呼叫是否成功。
 
-### :memo: 应用程序提交
+### 📝 应用程序提交
 
 Makemoji SDK 使用IDFA跟踪ID来为您的应用程序中的视图，共享和点击进行归因。 将应用程序提交到 App Store 时，您需要检查“将此应用程序安装到以前投放的广告”选项。
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-30/54698832.jpg)
+![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bece6eb36?w=1264&h=607&f=png&s=75271)
 
 
-### ⚖️ 协议
-
-```
-MIT License
-
-Copyright (c) 2017 ReverseScale
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### :grimacing: 联系
+### 😬 联系
 
 * 微信 : WhatsXie
 * 邮件 : ReverseScale@iCloud.com
 * 博客 : https://reversescale.github.io
-
-
