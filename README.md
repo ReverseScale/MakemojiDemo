@@ -4,6 +4,10 @@
 
 ![](https://user-gold-cdn.xitu.io/2018/2/7/1616f87bb0d738da?w=1689&h=591&f=png&s=109467)
 
+![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-blue.svg) ![](https://img.shields.io/badge/download-9.9MB-yellow.svg) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
+
+[EN](https://github.com/ReverseScale/MakemojiDemo) | [中文](https://github.com/ReverseScale/MakemojiDemo/blob/master/README_zh.md)
+
 We believe that users should not be limited to the Unicode library and we built this keyboard to increase engagement, retention and revenue for all of the apps we work with. 
 
 
